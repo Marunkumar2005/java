@@ -4,7 +4,7 @@ import java.util.List;
 
 
 public class permutation {
-
+//returning total permutation
     static void permutations(String p, String up) {
 
         if (up.isEmpty()) {
@@ -21,7 +21,7 @@ public class permutation {
 
 
     }
-
+//returning in the form of arrays
     static ArrayList<String> permutationsList(String p, String up) {
 
         if (up.isEmpty()) {
